@@ -1,0 +1,28 @@
+[debug] [2022-11-25T17:35:41.790Z] ----------------------------------------------------------------------
+[debug] [2022-11-25T17:35:41.794Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohamed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --debug
+[debug] [2022-11-25T17:35:41.795Z] CLI Version:   11.16.1
+[debug] [2022-11-25T17:35:41.796Z] Platform:      win32
+[debug] [2022-11-25T17:35:41.796Z] Node Version:  v19.1.0
+[debug] [2022-11-25T17:35:41.796Z] Time:          Fri Nov 25 2022 18:35:41 GMT+0100 (UTC+01:00)
+[debug] [2022-11-25T17:35:41.796Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=24900440&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-11-25T17:35:53.120Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2022-11-25T17:35:53.121Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2022-11-25T17:35:53.731Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2022-11-25T17:35:53.732Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] +  Success! Logged in as mboukachabia13@gmail.com 
+[debug] [2022-11-25T17:36:03.986Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Mohamed\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.

@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: SFRMED;
+	src: url('./Fonts/SFPRODISPLAYMEDIUM.OTF');
+}
+@font-face {
+	font-family: SFRREG;
+	src: url('./Fonts/SFPRODISPLAYREGULAR.OTF');
+}
+@font-face {
+	font-family: CHAMPG;
+	src: url('./Fonts/ChampionGothic-Middleweight.otf');
+}
+
+nav {
+	font-family: SFRREG;
+	mix-blend-mode: difference;
+}
+.title {
+	font-family: CHAMPG;
+	font-size: 180px;
+}
+.desc {
+	font-family: SFRMED;
+	font-size: 22px !important;
+
+	mix-blend-mode: difference;
+	-webkit-mix-blend-mode: difference;
+}
+.desc div {
+	width: 90%;
+	margin-right: auto;
+	line-height: 1.1;
+}
+body {
+	background-color: #1c1c1c;
+}
+#myVideo {
+	position: absolute;
+	left: 50%; /* % of surrounding element */
+	top: 50%;
+	transform: translate(-50%, -50%);
+	height: 100%;
+
+	min-width: 100vw;
+	object-fit: cover;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+.title img {
+	mix-blend-mode: difference;
+}
+.links a {
+	font-size: 14.5px !important;
+	letter-spacing: 0.4px !important;
+}
